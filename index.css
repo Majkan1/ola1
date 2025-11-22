@@ -1,9 +1,60 @@
+body{
+    width: 785px;
+}
 .image{
-    height:300px;
-    width:300px;
+    height:200px;
+    width:200px;
 }
 
 .telephon{
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+
+.header{
+    display:flex;
+    flex-direction: row;
+    gap:50px;
+}
+
+.grey-text{
+    color: gray;
+}
+
+.picture{
+    height:25px;
+    width:25px;
+}
+
+.the-same{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width:300px;
+    justify-content: space-between;
+}
+
+.Ms-office365{
+    height:50px;
+    width:80px;
+}
+
+.bigger-text{
+    font-size:20px;
+}
+
+.Linux{
+    height:50px;
+    width:60px;
+}
+
+.Github{
+    height:50px;
+    width:60px;
+}
+
+.Git{
+    height:50px;
+    width:90px;
 }
